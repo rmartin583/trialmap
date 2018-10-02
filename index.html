@@ -17,8 +17,10 @@
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiYnJhY2tlZW4iLCJhIjoiY2psNnRodzVwMTlrNzNwcThjNXg5ZHZ5OCJ9.As0MKRQv7uixLN8tM9Z0Hw';
 var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: 'mapbox://styles/brackeen/cjms7y8ku6ubd2rp9v5zdb0i9', // stylesheet location
+	container: 'map', // container id
+	style: 'mapbox://styles/brackeen/cjms7y8ku6ubd2rp9v5zdb0i9', // stylesheet location  
+	center: [-466.02295875549316, 35.89051032292216], // starting position [lng, lat]
+	zoom: 12.5 // starting zoom
 });
 
 
@@ -29,6 +31,9 @@ map.addControl(new mapboxgl.NavigationControl());
 
 </body>
 </html>
+
+      
+    
 
       
     
